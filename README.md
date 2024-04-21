@@ -38,3 +38,8 @@
 * Cloud Databases
 * Image Upload and Storage
 * Maps and Geocoding
+
+<br>
+<h2> 💡 The course also includes: </h2>
+<br>
+
