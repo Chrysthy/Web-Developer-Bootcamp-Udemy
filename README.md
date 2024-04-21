@@ -43,3 +43,11 @@
 <h2> 💡 The course also includes: </h2>
 <br>
 
+* Lectures
+* Code-Alongs
+* Projects
+* Exercises
+* Research Assignments
+* Slides
+* Downloads
+* Readings
