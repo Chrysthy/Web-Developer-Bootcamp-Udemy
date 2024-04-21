@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+
+    <form action="Burger">
+        <p>
+            <label for="Username">Enter a username:</label>
+            <input id="Username" type="text" placeholder="Username" name="Username">
+        </p>
+        <p>
+            <label for="Password">Enter a password:</label>
+            <input id="Password" type="Password" placeholder="Password" name="Password">
+        </p>
+        <p>
+            <label for="Color">Color:</label>
+            <input type="Color" id="Color" name="Color">
+        </p>
+
+        <p>
+            <label for="number">Enter a number:</label>
+            <input type="number" placeholder="Enter a number" id="number" name="num" min="1" max="20">
+        </p>
+
+        <!--This button doesn't submit the form because of the "type" attribute-->
+        <button type="button">Regular Button (won't Submit) </button>
+
+        <!-- This button submits the fomr-->
+        <button>Submit!</button>
+
+        <!--So does this one-->
+        <input type="submit" value="Click Me!">
+
+    </form>
+
+    <hr>
+
+    <!--Outside of a form, default behavior-->
+    <button>Not Inside Form</button>
+
+    <h2>Hijacking Searches</h2>
+
+    <h3>Search Google</h3>
+    <form action="https://www.google.com.br/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+
+    </form>
+
+    <h3>Search Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search youtube</button>
+
+    </form>
+
+
+    <h2>More Inputs!</h2>
+    <form action="Titanic">
+        <input type="Checkbox" name="agree_tos" id="agree">
+        <label for="agree"> I agree to everything</label>
+        <p>
+            <label for="XS">XS</label>
+            <input type="radio" name="size" id="XS" value="xs">
+            <label for="S">S</label>
+            <input type="radio" name="size" id="S" value="s">
+            <label for="M">M</label>
+            <input type="radio" name="size" id="M" value m>
+        </p>
+
+        <p></p>
+        <label for="meal">Please, select an Entree</label>
+        <select name="meal" id="meal">
+            <option value="">--Please choose an option--</option>
+            <option value="fish">fish</option>
+            <option value="veg">vegetarian</option>
+            <option value="steak">steak</option>
+
+        </select>
+        </p>
+        <p>
+            <label for="cheese">Amout of cheese</label>
+            <input type="range" name="cheese_level" id="cheese" min="1" max="10" value="5">
+
+        </p>
+
+        <Button>Submit</Button>
+
+        <p>
+            <label for="requests">Any Special Requests?</label>
+            <br>
+            <textarea name="Requests?" id="requests" cols="30" rows="10" placeholder="Type something here"></textarea>
+
+
+        </p>
+
+    </form>
+
+    <h2>Validations Demo</h2>
+
+    <form action="/dummy">
+        <label for="first">Enter first name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+
+            <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+        </p>
+
+        <p>
+            <label> Enter your phone number in the format (00) 0 0000-0000
+        </p>
+
+        <input name="tel1" type="tel" pattern="[0-9]{2}" placeholder="###" aria-label="2-digit area code" size="2" />
+        <input name="tel2" type="tel" pattern="[0-9]{5}" placeholder="###" aria-label="5-digit prefix" size="2" />
+        <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3" />
+
+        <button>Submit</button>
+
+        </label>
+
+
+    </form>
+
+
+
+</body>
+
+</html>
