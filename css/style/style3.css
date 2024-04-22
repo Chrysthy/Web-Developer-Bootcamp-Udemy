@@ -1,0 +1,59 @@
+/* *{
+      background-color: cyan;
+
+}*/
+
+
+body{
+    background-color: #faedcd;
+}
+
+button{
+    font-size: 30px;
+    background-color: #e9c46a;
+}
+
+h1, h2 {
+    color: #264653;
+}
+
+#signup{
+    background-color: aqua;
+    color: #14213d;
+}
+
+span{
+color: #f4acb7;
+
+}
+
+.tag{
+    background-color: red;
+    color: aquamarine;
+    font-size: 16px;
+}
+
+span a {
+    color: #14213d;
+}
+
+footer a {
+    color: red;
+}
+
+
+h2 + button {
+    font-size: 20px;
+    background-color: magenta;
+}
+
+footer > a{
+    color: green;
+}
+
+
+input[type="password"] { 
+    color: goldenrod;
+}
+
+

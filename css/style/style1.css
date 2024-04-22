@@ -1,0 +1,17 @@
+h2 {
+color: indigo;    
+background-color: rgb(89, 151, 0);
+}
+
+button {
+    color: #e021e0;
+    background-color: cyan;
+}
+
+p{
+    color: rgb(223, 223, 21);
+}
+
+body{
+    background-color: #000000;
+}
