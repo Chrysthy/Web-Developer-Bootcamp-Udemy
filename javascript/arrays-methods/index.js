@@ -37,7 +37,27 @@ console.log(barbell.length);
 
 
 //unshift(value) - adds value to START of an array
-
+movieLine.unshift('VIP')
+console.log(movieLine);
 
 
 //shift() - removes and returns first element in an array
+movieLine.shift()
+console.log(movieLine);
+
+
+// concat() concatenando duas ou mais arrays para forma uma nova array
+
+let cats = ['Noob', 'Leon', 'Collin']
+let dogs = ['Rusty', 'Wyatt']
+let allPets = cats.concat(dogs);
+
+console.log(allPets);
+
+
+//includes() é um exemplo de método booleano, o que significa que retorna true ou false
+
+console.log(cats.includes('Leon'));
+console.log(cats.includes('leon')); // retorna false por causa da letra minúscula
+
+
