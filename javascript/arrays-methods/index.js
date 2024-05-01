@@ -61,3 +61,37 @@ console.log(cats.includes('Leon'));
 console.log(cats.includes('leon')); // retorna false por causa da letra minúscula
 
 
+//indexOf() o índice se refere aos índices de uma matriz
+
+console.log(allPets.indexOf('Noob'))
+console.log(allPets.indexOf('Rusty'))
+console.log(allPets.indexOf('Peppa')) //não existe
+
+
+//reverse() irá reverter uma array. É conhecido como um método destrutivo. Vai mudar o array inicial
+
+console.log(allPets);
+console.log(allPets.reverse());
+
+
+//slice() é uma forma de obter uma cópia de uma parte/pedaço de um array. Os 3 primeiros, ou os dois últimos ou no meio.
+
+let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+console.log(colors.slice()); //retona a array igual
+console.log(colors.slice(2)); //retorna do yellow até o final
+console.log(colors.slice(2, 5)); //retona do yellow até o blue, pois não inclui o 5 índice
+console.log(colors.slice(-3)); //podemos usar o negativo e  retornará os últomos 3.
+
+
+//splice() muda o conteúdo de uma array removendo ou substituindo elementos existentes e/ou adicionando novos elementos no local. Não faz uma cópia do array original
+
+//months.splice(onde vamos começar, quantas coisas iremos excluir ou nenhuma (0 - zero), e opcionalmente, algo para inserir)
+
+console.log(colors.splice(5, 1))
+console.log(colors);
+
+console.log(colors.splice(1, 0, 'red-orange'));
+console.log(colors.splice(3, 0, 'yellow-green', 'forestgreen'));
+
+
