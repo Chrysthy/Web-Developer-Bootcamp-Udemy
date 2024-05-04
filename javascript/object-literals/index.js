@@ -27,3 +27,23 @@ let product = {
     flavors: ["grape", "apple", "cherry"]
 };
 
+
+
+
+
+//Accessing Data Out Of Objects
+
+//Array
+let number = [12, 27, 14];
+
+console.log(number[1])
+
+
+//object
+let person = {
+    firstName: "Mick",
+    lastName: "Jagger"
+}
+
+console.log(person["firstName"])
+console.log(person.lastName);
