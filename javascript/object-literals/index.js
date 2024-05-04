@@ -64,3 +64,10 @@ let birthYear = 2020;
 
 // console.log(year.birthYear);
 console.log(years[birthYear]);
+
+
+//Modifying Objects 
+let midterm = {
+    danielle: 96,
+    thomas: 78
+}
