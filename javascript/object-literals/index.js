@@ -47,3 +47,20 @@ let person = {
 
 console.log(person["firstName"])
 console.log(person.lastName);
+
+
+//All keys are converted to strings
+//except for symbols
+
+let years = {
+    1992: 'Good',
+    2020: 'bad'
+}
+
+console.log(years[1992]);
+
+//mas para acessar uma variável
+let birthYear = 2020;
+
+// console.log(year.birthYear);
+console.log(years[birthYear]);
