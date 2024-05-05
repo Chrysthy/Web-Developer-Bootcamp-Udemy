@@ -71,3 +71,17 @@ let midterm = {
     danielle: 96,
     thomas: 78
 }
+
+console.log(midterm);
+
+//updating an object
+console.log(midterm.thomas = 79);
+console.log(midterm);
+console.log(midterm.thomas = 'B');
+console.log(midterm['danielle'] = 'A');
+
+//adding more info
+console.log(midterm.erza = 'B+');
+console.log(midterm['antonio'] = 'A-');
+
+console.log(midterm);
