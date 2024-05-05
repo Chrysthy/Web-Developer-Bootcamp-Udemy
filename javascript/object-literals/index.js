@@ -80,7 +80,7 @@ console.log(midterm);
 console.log(midterm.thomas = 'B');
 console.log(midterm['danielle'] = 'A');
 
-//adding more info
+//creating more info
 console.log(midterm.erza = 'B+');
 console.log(midterm['antonio'] = 'A-');
 
