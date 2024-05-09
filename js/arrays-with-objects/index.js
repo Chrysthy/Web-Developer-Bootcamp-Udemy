@@ -36,5 +36,14 @@ const students = {
     lastName: 'Jones',
     strengths:
 
-        ['Music', 'Art']
+        ['Music', 'Art'],
+
+    exames: {
+        midterm: 92,
+        final: 88
+    }
+
 }
+
+console.log(students.strengths)
+console.log(students.strengths[1])
