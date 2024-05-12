@@ -318,6 +318,15 @@ const animals = [
     "Zorilla"
 ]
 
-for (let i = 0; i < animals.length; i++) {
-    console.log(i)
+//poderia fazer i <= animals.length -1
+
+// for (let i = 0; i < animals.length; i++) {
+//     console.log(i, animals[i])
+// }
+
+
+//reverse
+
+for (let i = animals.length - 1; i >= 0; i--) {
+    console.log(animals[i]);
 }
