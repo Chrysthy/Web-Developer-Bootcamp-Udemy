@@ -327,6 +327,16 @@ const animals = [
 
 //reverse
 
-for (let i = animals.length - 1; i >= 0; i--) {
-    console.log(animals[i]);
+// for (let i = animals.length - 1; i >= 0; i--) {
+//     console.log(animals[i]);
+// }
+
+
+//exercise
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
+for (let i = 0; i < people.length; i++) {
+    console.log(people[i].toUpperCase())
 }
+
+
