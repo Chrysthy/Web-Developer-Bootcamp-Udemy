@@ -13,9 +13,9 @@ let guess = parseInt(prompt("Enter your first guess!"))
 
 let attempts = 1;
 
-while (parseInt(guess !== targetNum)) {
+while (parseInt(guess) !== targetNum) {
 
-    if (guess === 'q') break
+    if (guess === 'q') break;
 
 
     attempts++
@@ -32,7 +32,7 @@ if (guess === 'q') {
     alert("Ok, you quit!")
 
 } else {
-    alert("Congrats you Win!")
-    alert(`You got it! It took you ${attempts} guesse(s)`);
+    // alert("Congrats you Win!")
+    alert(`You got it! It took you ${attempts} guesses`);
 }
 
