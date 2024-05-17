@@ -13,16 +13,26 @@ let guess = parseInt(prompt("Enter your first guess!"))
 
 let attempts = 1;
 
-while (guess !== targetNum) {
+while (parseInt(guess !== targetNum)) {
+
+    if (guess === 'q') break
+
 
     attempts++
 
     if (guess > targetNum) {
-        guess = parseInt(prompt("Too hight! Enter a new guess:"))
+        guess = prompt("Too hight! Enter a new guess:")
 
     } else {
-        guess = parseInt(prompt("Too low! Enter a new guess:"))
+        guess = prompt("Too low! Enter a new guess:")
     }
 }
 
-alert(`You got it! It took you ${attempts} guesses`);
+if (guess === 'q') {
+    alert("Ok, you quit!")
+
+} else {
+    alert("Congrats you Win!")
+    alert(`You got it! It took you ${attempts} guesse(s)`);
+}
+
