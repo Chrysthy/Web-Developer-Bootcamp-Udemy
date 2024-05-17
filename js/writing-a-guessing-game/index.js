@@ -11,7 +11,11 @@ console.log(targetNum);
 
 let guess = parseInt(prompt("Enter your first guess!"))
 
+let attempts = 1;
+
 while (guess !== targetNum) {
+
+    attempts++
 
     if (guess > targetNum) {
         guess = parseInt(prompt("Too hight! Enter a new guess:"))
@@ -21,4 +25,4 @@ while (guess !== targetNum) {
     }
 }
 
-alert("You got it!");
+alert(`You got it! It took you ${attempts} guesses`);
