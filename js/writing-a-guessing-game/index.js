@@ -19,13 +19,15 @@ while (parseInt(guess) !== targetNum) {
 
     guess = parseInt(guess)
 
-    attempts++
-
     if (guess > targetNum) {
         guess = prompt("Too hight! Enter a new guess:")
 
+        attempts++
+
     } else if (guess < targetNum) {
         guess = prompt("Too low! Enter a new guess:")
+        
+        attempts++
 
     } else {
         guess = prompt("Invalid guess. Please enter a number or 'q' to quit.")
