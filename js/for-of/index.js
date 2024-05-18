@@ -38,5 +38,13 @@ for (let row of seatingChart) {
 }
 
 
+//other iterable objects
+//strings
 
+for (let char of "Hello Word") {
+    console.log(char);
+}
+
+
+//objextsa
 
