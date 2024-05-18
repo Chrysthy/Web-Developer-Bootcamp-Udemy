@@ -49,6 +49,10 @@ for (let char of "Hello Word") {
 //objects
 //nesses casos usando o for in para iterar sobre o objeto
 
+// ===================================
+// USING FOR...IN TO ITERATE AN OBJECT
+// ===================================
+
 const testScores = {
     keenan: 80,
     damon: 67,
@@ -66,6 +70,10 @@ for (let person in testScores) {
     console.log(`${person} scored ${testScores[person]}`);
 }
 
+// ==============================================
+// Using Object methods to iterate
+// (turn data into an array and then use for...of)
+// ==============================================
 
 let total = 0
 let scores = Object.values(testScores)
