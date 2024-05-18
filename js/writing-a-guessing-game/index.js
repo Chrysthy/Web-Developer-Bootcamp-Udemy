@@ -9,7 +9,7 @@ const targetNum = Math.floor(Math.random() * maximum) + 1
 console.log(targetNum);
 
 
-let guess = prompt("Enter your first guess! (Type 'q' to quit the game")
+let guess = prompt("Enter your first guess! (Type 'q' to quit the game)")
 
 let attempts = 1;
 
@@ -26,7 +26,7 @@ while (parseInt(guess) !== targetNum) {
 
     } else if (guess < targetNum) {
         guess = prompt("Too low! Enter a new guess:")
-        
+
         attempts++
 
     } else {
