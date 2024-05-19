@@ -6,8 +6,18 @@
 
 // sing()
 
-function greet(firstName) {
-    console.log(`Hey there, ${firstName}!`);
+//Um parâmetro
+// function greet(firstName) {
+//     console.log(`Hey there, ${firstName}!`);
+// }
+
+// greet('Chrystine')
+
+
+//Dois parâmetros
+function greet(firstName, lastName) {
+    console.log(`Hi there, ${firstName} ${lastName[0]}.`);
 }
 
-greet('Chrystine')
+//ordes matter
+greet("Chrystine", "Martins")
