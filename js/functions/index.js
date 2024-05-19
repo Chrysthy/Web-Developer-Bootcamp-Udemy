@@ -15,9 +15,23 @@
 
 
 //Dois parâmetros
-function greet(firstName, lastName) {
-    console.log(`Hi there, ${firstName} ${lastName[0]}.`);
-}
+// function greet(firstName, lastName) {
+//     console.log(`Hi there, ${firstName} ${lastName[0]}.`);
+// }
 
 //ordes matter
-greet("Chrystine", "Martins")
+// greet("Chrystine", "Martins")
+
+
+function repeat(str, numTimes) {
+
+    let result = ""
+    for (let i = 0; i < numTimes; i++) {
+
+        result += str
+    }
+
+    console.log(result);
+}
+
+repeat("I love my cats! ", 10)
