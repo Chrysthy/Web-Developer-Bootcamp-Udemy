@@ -1,5 +1,18 @@
+//no return
+// function add(x, y) {
+//     console.log(x + y);
+// }
+
+// add(3, 3)
+
+//return
 function add(x, y) {
-    return x + y;
+
+    let sum = x + y;
+
+    return sum;
+
+    console.log("end of dunction")
 }
 
-console.log(3, 3);
+add(5, 5)
