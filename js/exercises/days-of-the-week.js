@@ -6,3 +6,18 @@
 // returnDay(7) // "Sunday"
 // returnDay(4) // "Thursday"
 // returnDay(0) // null
+
+
+function returnDay (day){
+    
+    let daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    
+    if(day < 1 || day > 7){
+        return null
+        
+    } else {
+        return daysOfTheWeek[day -1]
+    }
+    
+    
+}
