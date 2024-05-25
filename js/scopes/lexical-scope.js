@@ -1,3 +1,6 @@
+//É uma função aninhada ou interna e tem acesso às mesmas coisas que a função pai ou avô iu quantos níveis mais acima
+
+
 function bankRobbery() {
 
     const heros = ['Spiderman', 'Wolverine', 'Black Panther', 'Batwoman']
