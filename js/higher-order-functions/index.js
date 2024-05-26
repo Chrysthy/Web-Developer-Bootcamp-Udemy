@@ -38,24 +38,40 @@
 
 
 //******Return a Function*******
-function makeMysteryFunc() {
+// function makeMysteryFunc() {
 
-    //numero aleatório
-    const randomNum = Math.random()
+//     //numero aleatório
+//     const randomNum = Math.random()
 
-    if (randomNum > 0.5) {
-        return function () {
+//     if (randomNum > 0.5) {
+//         return function () {
 
-            console.log("Congrats, I'm a good function");
-            console.log("You win a Million Dollars!");
-        }
+//             console.log("Congrats, I'm a good function");
+//             console.log("You win a Million Dollars!");
+//         }
 
 
-    } else {
-        alert("You have been infected by a computer virus!");
-        alert("Stop trying to close this window!");
+//     } else {
+//         alert("You have been infected by a computer virus!");
+//         alert("Stop trying to close this window!");
 
+//     }
+// }
+
+// makeMysteryFunc()
+
+
+function makeBetweenFunc(min, max) {
+    return function (num) {
+        return num >= min && num <= max;
     }
 }
 
-makeMysteryFunc()
+const isChild = makeBetweenFunc(0, 18)
+console.log(isChild(2));
+
+const isAdult = makeBetweenFunc(19, 65);
+console.log(isAdult(60));
+
+const isSenior = makeBetweenFunc(64, 110)
+console.log(isSenior(65));
