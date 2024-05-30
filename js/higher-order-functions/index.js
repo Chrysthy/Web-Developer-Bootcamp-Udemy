@@ -58,7 +58,9 @@
 //     }
 // }
 
-// makeMysteryFunc()
+// const mystery = makeMysteryFunc()
+
+// mystery() // "Congrats, I'm a good function" or "You have been infected by a computer virus!"
 
 
 function makeBetweenFunc(min, max) {
