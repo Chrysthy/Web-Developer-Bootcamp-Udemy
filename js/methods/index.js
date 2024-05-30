@@ -1,4 +1,4 @@
-//methods
+//Defining methods
 
 "hello".toUpperCase()
 
