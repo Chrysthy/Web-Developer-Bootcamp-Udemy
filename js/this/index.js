@@ -1,11 +1,13 @@
 const cat = {
-    name: "Noob",
+    name: "Noob Saibot",
     color: "gray",
     age: 14,
 
     meow() {
 
-        console.log("Meow Meow Meow");
+        console.log(this.color);
+        console.log(`${this.name} says MEOW`);
+        console.log(this.name);
     }
 }
 
