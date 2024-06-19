@@ -3,24 +3,30 @@
 //     return x + y
 // }
 
-
+//-----------------------
 //arrow function
-const add = (x, y) => {
-    return x + y
-}
+//-----------------------
 
-console.log(add(9, 4));
+// const add = (x, y) => {
+//     return x + y
+// }
 
-
-const square = (x) => {
-    return x * x
-}
-
-console.log(square(9));
+// console.log(add(9, 4));
 
 
-const rollDie = () => {
-    return Math.floor(Math.random() * 6) + 1
-}
+// const square = (x) => {
+//     return x * x
+// }
 
-console.log(rollDie());
+// console.log(square(9));
+
+
+// const rollDie = () => {
+//     return Math.floor(Math.random() * 6) + 1
+// }
+
+// console.log(rollDie());
+
+//-----------------------
+//implicit Returns
+//-----------------------
