@@ -31,7 +31,8 @@
 //implicit Returns
 //-----------------------
 
-const rollDie = () => {
-    return Math.floor(Math.random() * 6) + 1
-}
+const rollDie = () => (
+    Math.floor(Math.random() * 6) + 1
+)
 
+console.log(rollDie());
