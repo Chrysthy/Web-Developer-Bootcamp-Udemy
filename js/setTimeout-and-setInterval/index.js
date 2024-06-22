@@ -1,3 +1,3 @@
 setTimeout(() => {
-    console.log("Hello!!!");
-})
+    console.log("Hello!!!")
+}, 3000)
