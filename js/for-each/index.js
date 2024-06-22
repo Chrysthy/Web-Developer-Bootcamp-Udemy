@@ -46,6 +46,16 @@ const movies = [
 ]
 
 movies.forEach(function (movie) {
-    console.log(`${movie.title} - ${movie.score} /100)`);
+    console.log(`${movie.title} - ${movie.score} /100`);
 })
 
+
+//-----------------------
+//Arrow Functions Wrapup
+//-----------------------
+
+const newMovies = movies.map(function (movie) {
+    return `${movie.title} - ${movie.score / 10}`
+})
+
+console.log(newMovies());
