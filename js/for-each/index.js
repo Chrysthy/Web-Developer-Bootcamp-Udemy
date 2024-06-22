@@ -58,8 +58,15 @@ movies.forEach(function (movie) {
 //     return `${movie.title} - ${movie.score / 10}`
 // })
 
-// console.log(newMovies);
 
-const newMovies = movies.map((movie) => {
-    return `${movie.title} - ${movie.score / 10}`
-})
+// const newMovies = movies.map((movie) => {
+//     return `${movie.title} - ${movie.score / 10}`
+// })
+
+
+// const newMovies = movies.map(movie => (
+//     `${movie.title} - ${movie.score / 10}`
+// ))
+
+const newMovies = movies.map(movie => (`${movie.title} - ${movie.score / 10}`
+))
