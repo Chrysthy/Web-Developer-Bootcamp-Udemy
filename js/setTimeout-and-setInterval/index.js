@@ -1,3 +1,25 @@
+//-------------------
+// setTimeout
+//-------------------
+
+// setTimeout(() => {
+
+// }, timeout);
+
+console.log("Hello!!");
+
 setTimeout(() => {
-    console.log("Hello!!!")
+    console.log("... are you still there?")
 }, 3000)
+
+//------------------------
+//setInterval
+//------------------------
+
+// setInterval(() => {
+
+// }, interval);
+
+setInterval(() => {
+    console.log(Math.random())
+}, 2000)
