@@ -54,8 +54,12 @@ movies.forEach(function (movie) {
 //Arrow Functions Wrapup
 //-----------------------
 
-const newMovies = movies.map(function (movie) {
+// const newMovies = movies.map(function (movie) {
+//     return `${movie.title} - ${movie.score / 10}`
+// })
+
+// console.log(newMovies);
+
+const newMovies = movies.map((movie) => {
     return `${movie.title} - ${movie.score / 10}`
 })
-
-console.log(newMovies());
