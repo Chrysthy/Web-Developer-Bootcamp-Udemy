@@ -20,6 +20,13 @@ setTimeout(() => {
 
 // }, interval);
 
-setInterval(() => {
+// setInterval(() => {
+//     console.log(Math.random())
+// }, 2000)
+
+
+const id = setInterval(() => {
     console.log(Math.random())
-}, 2000)
+}, 2000);
+
+// clearInterval(id)
