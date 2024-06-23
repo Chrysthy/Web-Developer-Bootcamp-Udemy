@@ -63,3 +63,11 @@ const goodMovies = movies.filter(movie => {
 //const goodMovies = movies.filter(m => m.score > 80)
 
 console.log(goodMovies);
+
+const badMovies = movies.filter(m => m.score < 70)
+
+console.log(badMovies);
+
+const recentMovies = movies.filter(m => m.year > 2000)
+
+console.log(recentMovies);
