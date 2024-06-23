@@ -61,13 +61,18 @@ const goodMovies = movies.filter(movie => {
 
 //compact way
 //const goodMovies = movies.filter(m => m.score > 80)
-
 console.log(goodMovies);
 
 const badMovies = movies.filter(m => m.score < 70)
-
 console.log(badMovies);
 
 const recentMovies = movies.filter(m => m.year > 2000)
-
 console.log(recentMovies);
+
+
+//podemos usar map and filter juntos
+const goodTitles = goodMovies.map(m => m.title)
+console.log(goodTitles);
+
+//e ainda podemos colocar todos juntos numa única linha 
+movies.filter(m => m.score > 80).map(m => m.title)
