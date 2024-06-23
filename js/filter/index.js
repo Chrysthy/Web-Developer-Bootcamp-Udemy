@@ -54,3 +54,12 @@ const movies = [
         year: 1979
     }
 ]
+
+const goodMovies = movies.filter(movie => {
+    return movie.score > 80
+})
+
+//compact way
+//const goodMovies = movies.filter(m => m.score > 80)
+
+console.log(goodMovies);
