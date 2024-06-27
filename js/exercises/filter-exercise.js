@@ -7,3 +7,6 @@ function validUserNames(usernames) {
     return usernames.filter(name => name.length < 10)
 
 }
+
+const validNames = validUserNames(usernames);
+console.log(validNames);
