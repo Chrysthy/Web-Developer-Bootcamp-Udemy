@@ -15,11 +15,14 @@ const prices = [9.99, 1.50, 19.99, 49.99, 30.50]
 
 // prices.reduce((total, price) =>  total + price)
 
-const minPrice = prices.reduce((min, price) => {
-    if (price < min) {
-        return price
-    }
-    return min
-})
+// const minPrice = prices.reduce((min, price) => {
+//     if (price < min) {
+//         return price
+//     }
+//     return min
+// })
 
-console.log(minPrice);
+// console.log(minPrice);
+
+const evens = [2, 4, 6, 8]
+evens.reduce((sum, num) => sum + num, 100) // 120
