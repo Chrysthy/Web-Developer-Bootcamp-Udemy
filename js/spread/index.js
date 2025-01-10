@@ -7,9 +7,14 @@ console.log(Math.min(...minNum));
 
 
 //spread with arrays literals
+//estamos espalhando os elementos de um array dentro de outro array, criando um novo array, combinando, copiando os elementos dos dois arrays
 const cats = ['Noob', 'Collin', 'Leon']
 const dogs = ['Rusty', 'Wyatt']
 
-const allPets = [...cats, ...dogs]
+const allPets = [1, 2, 3, ...cats, ...dogs, 'Tommy']
 
 console.log(allPets);
+
+let greet = ['Hello', 'Good Morning', 'Good Afternoon', 'Good Night']
+
+console.log(...greet);
