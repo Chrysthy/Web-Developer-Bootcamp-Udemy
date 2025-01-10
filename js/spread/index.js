@@ -29,3 +29,12 @@ const catDog = { ...feline, ...canine }
 console.log(catDog);
 
 
+const dataFromForm = {
+    email: 'hello@gmail.com',
+    password: '12345!',
+    username: 'tfunke'
+}
+
+const newUser = { ...dataFromForm, id: 2345, isAdmin: false }
+
+console.log(newUser);
