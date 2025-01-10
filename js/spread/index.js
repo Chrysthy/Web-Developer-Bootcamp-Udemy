@@ -18,3 +18,14 @@ console.log(allPets);
 let greet = ['Hello', 'Good Morning', 'Good Afternoon', 'Good Night']
 
 console.log(...greet);
+
+//spread with object literals
+const feline = { legs: 4, family: 'Felidae' }
+const canine = { isFurry: true, family: 'Caninae' }
+
+console.log({ ...feline, color: 'black'});
+
+const catDog = { ...feline, ...canine }
+console.log(catDog);
+
+
