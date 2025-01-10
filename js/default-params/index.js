@@ -13,3 +13,10 @@ function rollDie(numSides = 6) {
 }
 
 console.log(rollDie());
+
+
+function greet(msg, person) {
+    console.log(`${msg}, ${person}!`)
+}
+
+greet('Hello', 'Sally')
