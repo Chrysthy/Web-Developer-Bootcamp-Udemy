@@ -32,13 +32,32 @@ const user = {
 // const firstName = user.firstName;
 // const lastName = user.lastName;
 
-const { email, firstName, lastName, bio } = user
+// const { email, firstName, lastName, bio } = user
 
-console.log(email);
-console.log(firstName);
-console.log(lastName);
-console.log(bio);
+// console.log(email);
+// console.log(firstName);
+// console.log(lastName);
+// console.log(bio);
 
 //muda o nome born and died para birthYear e deathYear
-const {born: birthYear} = user;
-const {died: deathYear} = user;
+// const {born: birthYear} = user;
+// const { died: deathYear } = user;
+
+
+//example 3
+//se não tiver o atributo died e colocar como default, ele vai retornar N/A
+//se não colocar o default, ele vai retornar undefined
+const user2 = {
+    email: 'Stacy@gmail.com',
+    firstName: 'Stacy',
+    lastName: 'Gonzalez',
+    born: 1987,
+    city: 'Tulsa',
+    state: 'Oklahoma'
+}
+
+const { city, state, died: deathYear = 'N/A' } = user2;
+
+console.log(city);
+console.log(state);
+console.log(deathYear);
