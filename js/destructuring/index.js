@@ -66,6 +66,19 @@ console.log(deathYear);
 //param destructuring
 //é mais frequentemente utilizado com objetos
 
+function fullName(user) {
+    return `${user.firstName} ${user.lastName}`
+}
+
+function fullName(user) {
+    const { firstName, lastName } = user;
+    return `${firstName} ${lastName}`
+}
+
+function fullName({ firstName, lastName }) {
+    return `${firstName} ${lastName}`
+}
+
 const movies = [
     {
         title: 'Amadeus',
