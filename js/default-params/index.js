@@ -15,8 +15,17 @@ function rollDie(numSides = 6) {
 console.log(rollDie());
 
 
-function greet(msg, person) {
-    console.log(`${msg}, ${person}!`)
+// function greet(msg, person) {
+//     console.log(`${msg}, ${person}!`)
+// }
+
+// greet('Hello', 'Sally')
+
+
+//com default params, ele precisa ser o ultimo parametro, pois JS não sabe qual parametro você está passando
+
+function greet(person, msg = 'Hello, there', punctuation = '!') {
+    console.log(`${msg}, ${person}${punctuation}`)
 }
 
-greet('Hello', 'Sally')
+greet('Chrystine')
