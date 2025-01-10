@@ -79,6 +79,8 @@ function fullName({ firstName, lastName }) {
     return `${firstName} ${lastName}`
 }
 
+
+
 const movies = [
     {
         title: 'Amadeus',
@@ -134,3 +136,19 @@ const movies = [
         year: 1979
     }
 ]
+
+// let score = movies.filter((movie) => movie.score >= 90);
+// console.log(score);
+
+// let score = movies.filter(({ score }) => score >= 90);
+// console.log(score);
+
+// let movie = movies.map(movie => {
+//     return `${movie.title} (${movie.year}) is rated ${movie.score}`
+// })
+
+let movie = movies.map(({ title, score, year }) => {
+    return `${title} (${year}) is rated ${score}`
+})
+
+console.log(movie);
