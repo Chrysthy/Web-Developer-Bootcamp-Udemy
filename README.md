@@ -1,7 +1,9 @@
-<h1> 💻 The Web Developer Bootcamp 2023 by Colt Steele - Udemy </h1>
-<br>
+<h1 align="center"> 💻 The Web Developer Bootcamp 2025 </h1> 
 
-[The Web Developer Bootcamp 2023](https://www.udemy.com/course/the-web-developer-bootcamp/)
+<p align="center">
+   by Colt Steele - <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">Udemy</a> 
+</p>
+
 <br>
 
 <h2> 📑 The course covers tons of tools and technologies including: </h2>
